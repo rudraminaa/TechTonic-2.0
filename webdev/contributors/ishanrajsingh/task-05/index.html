@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy to Clipboard - Browser API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📋 Copy to Clipboard Demo</h1>
+        <p class="description">
+            Enter some text below and click the button to copy it to your clipboard.
+        </p>
+
+        <div class="input-group">
+            <textarea 
+                id="textInput" 
+                placeholder="Type or paste text here..."
+                rows="6"
+            ></textarea>
+        </div>
+
+        <button id="copyBtn" class="copy-btn">
+            📋 Copy to Clipboard
+        </button>
+
+        <!-- Feedback message -->
+        <div id="feedback" class="feedback hidden"></div>
+
+        <div class="info-box">
+            <h3>ℹ️ How it works:</h3>
+            <ul>
+                <li>Uses <code>navigator.clipboard.writeText()</code></li>
+                <li>Async Clipboard API (modern browsers)</li>
+                <li>Shows success/error feedback</li>
+                <li>Handles edge cases gracefully</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
