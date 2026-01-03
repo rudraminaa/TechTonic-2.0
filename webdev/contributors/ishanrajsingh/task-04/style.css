@@ -1,0 +1,85 @@
+/* CSS Variables for theming */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --container-bg: #f5f5f5;
+    --button-bg: #007bff;
+    --button-text: #ffffff;
+    --border-color: #ddd;
+}
+
+/* Dark theme variables */
+[data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --container-bg: #2d2d2d;
+    --button-bg: #4a9eff;
+    --button-text: #ffffff;
+    --border-color: #444;
+}
+
+/* Apply variables */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: var(--container-bg);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.theme-btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.theme-btn:hover {
+    transform: scale(1.05);
+}
+
+.theme-btn:active {
+    transform: scale(0.95);
+}
+
+.content {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin: 8px 0;
+}
