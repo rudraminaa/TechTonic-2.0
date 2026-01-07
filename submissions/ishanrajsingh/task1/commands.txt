@@ -5,7 +5,7 @@ touch visible.txt
 
 touch .secret.txt
 
-chmod 444 visible.txt   # read-only for owner, group, others [web:12][web:18]
+chmod 444 visible.txt
 
 ls -la
 
