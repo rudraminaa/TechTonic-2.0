@@ -1,0 +1,16 @@
+/* TODO:
+  Add styles required by your chosen feature.
+  Keep it simple and readable.
+*/
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+#output{
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+} 
