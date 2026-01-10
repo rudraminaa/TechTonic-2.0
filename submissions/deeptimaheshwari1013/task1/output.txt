@@ -1,0 +1,11 @@
+(base) deeptimaheshwary@Vishwanaths-MacBook-Pro ~ % cd cyber_lab
+(base) deeptimaheshwary@Vishwanaths-MacBook-Pro cyber_lab % ls -a
+.		..		.secret.txt	output.txt	visible.txt
+(base) deeptimaheshwary@Vishwanaths-MacBook-Pro cyber_lab % ls -la > output.txt
+(base) deeptimaheshwary@Vishwanaths-MacBook-Pro cyber_lab % ls -la
+total 8
+drwxr-xr-x   5 deeptimaheshwary  staff   160  9 Jan 18:32 .
+drwxr-xr-x+ 97 deeptimaheshwary  staff  3104  9 Jan 18:40 ..
+-rw-r--r--   1 deeptimaheshwary  staff     0  9 Jan 18:26 .secret.txt
+-rw-r--r--   1 deeptimaheshwary  staff   358  9 Jan 18:47 output.txt
+-r--r--r--   1 deeptimaheshwary  staff     0  9 Jan 18:25 visible.txt
