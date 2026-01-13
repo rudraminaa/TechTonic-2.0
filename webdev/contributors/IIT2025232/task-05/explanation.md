@@ -7,3 +7,4 @@
 5. Then I added an eventlistener which gets triggered with "input".
 6. made a count variable stored the string lenggth of the textarea in that.
 7. simply printed the textcontent of the p tag in real time.
+   .
